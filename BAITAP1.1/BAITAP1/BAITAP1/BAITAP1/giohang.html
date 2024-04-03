@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GioHang</title>
+    <link rel="stylesheet" href="giohang.css">
+    <script src="giohang.js"></script>
+    <link rel="stylesheet" href="BAITAP.css">
+</head>
+<body>
+    <div class="container">
+    <table>
+        <caption><font color="red">DANH SÁCH SẢM PHẨM</font></caption> 
+    <thead> 
+    <tr>
+        <th><input type="checkbox" id="chonhet"></th>
+        <th>Tên sách</th>
+        <th>Giá</th>
+        <th>Mua</th>
+    </tr>
+    </thead> 
+    <tbody>
+    <tr>
+        <td><input type="checkbox" class="chon" checked onchange="daott(this)"></td>
+        <td>Violet Bent Backwards Over The Grass</td>
+        <td>435000 đ</td>
+        <td><button onclick="them(this)"> Chon</button></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" class="chon" checked onchange="daott(this)"></td>
+        <td>Chúng Ta Sinh Ra Là Để Hạnh Phúc</td>
+        <td>220000 đ</td>
+        <td><button onclick="them(this)"> Chon</button></td>
+    </tr>
+    <tr> 
+        <td><input type="checkbox" class="chon" checked onchange="daott(this)"></td>  
+        <td>Dune - Xứ Cát</td> 
+        <td>211000 đ</td> 
+        <td><button onclick="them(this)"> Chon</button></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" class="chon" checked onchange="daott(this)"></td>
+        <td>Văn Học Cổ Điển-Gulliver Du Kí</td> 
+        <td>95200 đ</td> 
+        <td><button onclick="them(this)"> Chon</button></td>
+    </tr> 
+    <tr>
+        <td><input type="checkbox" class="chon" checked onchange="daott(this)"></td>
+        <td>Đắc Nhân Tâm (Tái Bản 2021)</td>
+        <td>62780 đ</td>
+          <td><button onclick="them(this)"> Chon</button></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" class="chon" checked onchange="daott(this)"></td>
+        <td>Trở Về Không</td>
+        <td>143100 đ</td>
+          <td><button onclick="them(this)"> Chon</button></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" class="chon" checked onchange="daott(this)"></td>
+        <td>Đời Sống Bí Ẩn Của Cây</td>
+        <td>134100 đ</td>
+          <td><button onclick="them(this)"> Chon</button></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" class="chon" checked onchange="daott(this)"></td>
+        <td>Người Trồng Rừng</td>
+        <td>103500 đ</td>
+          <td><button onclick="them(this)"> Chon</button></td>
+    </tr>
+    </tbody>
+    </table>
+        <hr style="margin:20px 0"/>
+        <table id="cart"> <caption><font color="red">GIỎ HÀNG CỦA BẠN</font></caption> </table>
+        <h3>TỔNG SỐ TIỀN:<SPAN id="tong">0</SPAN></h3>
+        <p class="Mua"><a href="./">Thanh toán</a></p>
+    
+    </div>
+</body>
+
+</html>
